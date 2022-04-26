@@ -1,0 +1,30 @@
+.card {
+    position: absolute;
+    width: 350px;
+    height: 570px;
+    margin:  50px 400px;
+    box-shadow: gray 1px 1px 10px 3px;
+}
+
+.imsctn img {
+    width: 98%;
+    padding: 2px;
+}
+.txtsctn{
+    padding-top: 10px;
+    margin-top:  20px;
+}
+p,h2, span{
+width: 300px;
+margin-left: 25px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+p, span{
+    font-size: medium;
+    color: gray;
+}
+.rm{
+    font-size: small;
+    letter-spacing: 1px;
+}
