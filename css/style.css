@@ -2,8 +2,13 @@
     position: absolute;
     width: 350px;
     height: 570px;
-    margin:  50px 400px;
+    margin:  50px 600px;
+    transition: 0.5s;
+}
+.card:hover{
     box-shadow: gray 1px 1px 10px 3px;
+    transition: 0.5s;
+    margin: 30px 600px;
 }
 
 .imsctn img {
@@ -20,11 +25,25 @@ margin-left: 25px;
 font-family: Arial, Helvetica, sans-serif;
 
 }
-p, span{
+.txtsctn> p, span{
     font-size: medium;
     color: gray;
 }
 .rm{
     font-size: small;
     letter-spacing: 1px;
+}
+
+.hvrths{
+    position: absolute;
+    margin: 100px 40px;
+    font-size: xx-large;
+}
+.hvrths p{
+    font-size: 50px;
+}
+.hvrths>span{
+    font-weight: bolder;
+    color: red;
+    font-size: 200px;
 }
